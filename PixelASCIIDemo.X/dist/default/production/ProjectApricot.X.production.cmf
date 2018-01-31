@@ -1,0 +1,1076 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcwnyz7gF.obj
+idloc IDLOC 0 200000 200000 8 1
+init CODE 0 0 0 4 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/production/ProjectApricot.X.production.obj
+cinit CODE 0 D568 D568 2C 1
+text0 CODE 0 DE8C DE8C 5E2 1
+text1 CODE 0 D816 D816 A8 1
+text2 CODE 0 D5C6 D5C6 32 1
+text3 CODE 0 E46E E46E 1954 1
+text4 CODE 0 D5F8 D5F8 34 1
+text5 CODE 0 D8BE D8BE 142 1
+text6 CODE 0 D6B4 D6B4 6E 1
+text7 CODE 0 D722 D722 70 1
+text8 CODE 0 D792 D792 84 1
+text9 CODE 0 D594 D594 32 1
+text10 CODE 0 DB80 DB80 30C 1
+text11 CODE 0 D62C D62C 38 1
+text12 CODE 0 D664 D664 50 1
+text13 CODE 0 DA00 DA00 180 1
+text14 CODE 0 D540 D540 28 1
+text15 CODE 0 D4D4 D4D4 A 1
+text16 CODE 0 D4F6 D4F6 24 1
+text17 CODE 0 D51A D51A 26 1
+cstackCOMRAM COMRAM 1 1 1 76 1
+idataBANK0 CODE 0 D4DF D4DF 17 1
+dataBANK0 BANK0 1 80 80 17 1
+bssCOMRAM COMRAM 1 77 77 1 1
+mediumconst MEDIUMCONST 0 FDC2 FDC2 23E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 97-F7F 1
+SFR F80-FFF 1
+BANK0 97-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-D4D3 1
+CONST D4DE-D4DE 1
+STACK 97-F7F 1
+SMALLCONST 1000-D4D3 1
+SMALLCONST D4DE-D4DE 1
+CODE 4-D4D3 1
+CODE D4DE-D4DE 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-F7F 1
+BIGRAM 78-7F 1
+BIGRAM 97-F7F 1
+COMRAM 78-7F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 1000-D4D3 1
+MEDIUMCONST D4DE-D4DE 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production/ProjectApricot.X.production.obj
+D51A text17 CODE >15:/Applications/microchip/xc8/v1.45/sources/common/Umul16.c
+D51A text17 CODE >37:/Applications/microchip/xc8/v1.45/sources/common/Umul16.c
+D526 text17 CODE >38:/Applications/microchip/xc8/v1.45/sources/common/Umul16.c
+D52E text17 CODE >39:/Applications/microchip/xc8/v1.45/sources/common/Umul16.c
+D536 text17 CODE >52:/Applications/microchip/xc8/v1.45/sources/common/Umul16.c
+D4F6 text16 CODE >12:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D4F8 text16 CODE >23:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D4FC text16 CODE >27:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D516 text16 CODE >30:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D4D4 text15 CODE >33:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D4D6 text15 CODE >41:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D4DC text15 CODE >42:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D540 text14 CODE >18:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D542 text14 CODE >27:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D55C text14 CODE >31:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D55E text14 CODE >33:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D564 text14 CODE >35:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D566 text14 CODE >36:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA00 text13 CODE >38:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA02 text13 CODE >58:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA08 text13 CODE >60:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA0C text13 CODE >61:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA12 text13 CODE >65:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA16 text13 CODE >67:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA1A text13 CODE >68:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA1E text13 CODE >69:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA22 text13 CODE >70:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA26 text13 CODE >72:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA2A text13 CODE >74:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA2E text13 CODE >75:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA32 text13 CODE >76:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA34 text13 CODE >77:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA36 text13 CODE >78:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA38 text13 CODE >79:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA38 text13 CODE >81:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA3A text13 CODE >82:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA3C text13 CODE >83:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA40 text13 CODE >84:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA44 text13 CODE >85:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA44 text13 CODE >89:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA58 text13 CODE >90:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA62 text13 CODE >91:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA6C text13 CODE >92:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA76 text13 CODE >93:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA80 text13 CODE >97:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA94 text13 CODE >98:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DA9E text13 CODE >99:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DAA8 text13 CODE >100:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DAB2 text13 CODE >101:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DABC text13 CODE >103:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DAD0 text13 CODE >107:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DAE0 text13 CODE >114:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DAEA text13 CODE >115:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DAF4 text13 CODE >116:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DAFE text13 CODE >117:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB00 text13 CODE >118:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB00 text13 CODE >130:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB40 text13 CODE >132:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB44 text13 CODE >133:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB48 text13 CODE >134:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB4C text13 CODE >136:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB4E text13 CODE >137:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB50 text13 CODE >138:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB5A text13 CODE >139:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB60 text13 CODE >140:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB66 text13 CODE >141:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB6C text13 CODE >138:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB7C text13 CODE >143:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D664 text12 CODE >167:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D666 text12 CODE >177:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D668 text12 CODE >178:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D668 text12 CODE >179:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D670 text12 CODE >181:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D670 text12 CODE >182:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D676 text12 CODE >185:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D678 text12 CODE >186:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D67A text12 CODE >187:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D67A text12 CODE >188:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D682 text12 CODE >177:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D694 text12 CODE >190:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D694 text12 CODE >191:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D6A8 text12 CODE >192:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D6B2 text12 CODE >193:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D62C text11 CODE >54:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D62E text11 CODE >65:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D630 text11 CODE >66:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D634 text11 CODE >71:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D636 text11 CODE >75:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D636 text11 CODE >76:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D63A text11 CODE >78:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D63A text11 CODE >79:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D63E text11 CODE >81:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D63E text11 CODE >82:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D642 text11 CODE >83:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D644 text11 CODE >71:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D65A text11 CODE >83:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D65A text11 CODE >86:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D65C text11 CODE >87:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D65E text11 CODE >88:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D660 text11 CODE >91:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+D662 text11 CODE >92:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/SPI_PIC.c
+DB80 text10 CODE >238:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB80 text10 CODE >262:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB82 text10 CODE >263:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB84 text10 CODE >264:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB86 text10 CODE >265:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB88 text10 CODE >268:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DB8E text10 CODE >272:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DBA6 text10 CODE >275:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DBD2 text10 CODE >277:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DBFE text10 CODE >280:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC12 text10 CODE >281:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC1C text10 CODE >282:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC26 text10 CODE >283:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC30 text10 CODE >285:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC44 text10 CODE >286:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC4E text10 CODE >287:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC58 text10 CODE >288:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC62 text10 CODE >290:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC76 text10 CODE >291:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC80 text10 CODE >292:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC8A text10 CODE >293:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DC94 text10 CODE >295:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DCA8 text10 CODE >296:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DCB2 text10 CODE >299:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DCC6 text10 CODE >300:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DCD0 text10 CODE >301:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DCDA text10 CODE >302:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DCE4 text10 CODE >304:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DCF8 text10 CODE >305:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD02 text10 CODE >307:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD16 text10 CODE >308:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD20 text10 CODE >309:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD2A text10 CODE >311:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD3E text10 CODE >312:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD48 text10 CODE >313:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD52 text10 CODE >315:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD66 text10 CODE >316:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD70 text10 CODE >317:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD7A text10 CODE >320:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD8E text10 CODE >321:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DD98 text10 CODE >323:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDAC text10 CODE >331:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDB2 text10 CODE >334:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDC6 text10 CODE >335:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDD0 text10 CODE >337:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDE4 text10 CODE >339:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDF8 text10 CODE >342:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDFA text10 CODE >343:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDFC text10 CODE >344:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DDFE text10 CODE >345:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DE00 text10 CODE >346:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DE02 text10 CODE >347:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DE04 text10 CODE >348:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DE22 text10 CODE >352:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DE68 text10 CODE >354:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DE7C text10 CODE >355:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+DE8A text10 CODE >356:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D594 text9 CODE >21:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D594 text9 CODE >26:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D598 text9 CODE >27:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D59C text9 CODE >28:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5A0 text9 CODE >29:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5A4 text9 CODE >30:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5A8 text9 CODE >34:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5AA text9 CODE >35:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5AC text9 CODE >36:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5B0 text9 CODE >40:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5B4 text9 CODE >46:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5B8 text9 CODE >53:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5BC text9 CODE >54:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5C0 text9 CODE >58:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5C4 text9 CODE >59:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D792 text8 CODE >8:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D792 text8 CODE >14:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D796 text8 CODE >15:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D79A text8 CODE >16:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7A2 text8 CODE >17:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7A6 text8 CODE >18:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7A6 text8 CODE >19:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7AA text8 CODE >20:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7B2 text8 CODE >21:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7B6 text8 CODE >22:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7B6 text8 CODE >23:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7BE text8 CODE >24:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7C6 text8 CODE >25:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7CA text8 CODE >26:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7CC text8 CODE >27:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7D2 text8 CODE >28:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7D4 text8 CODE >26:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7D4 text8 CODE >29:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7D8 text8 CODE >31:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7DE text8 CODE >32:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7EA text8 CODE >33:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7F2 text8 CODE >34:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7F4 text8 CODE >35:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7F4 text8 CODE >36:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7FA text8 CODE >37:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D7FE text8 CODE >39:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D804 text8 CODE >40:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D80C text8 CODE >41:/Applications/microchip/xc8/v1.45/sources/common/awdiv.c
+D722 text7 CODE >8:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D722 text7 CODE >13:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D726 text7 CODE >14:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D72A text7 CODE >15:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D732 text7 CODE >16:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D736 text7 CODE >17:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D736 text7 CODE >18:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D73A text7 CODE >19:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D742 text7 CODE >20:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D74A text7 CODE >21:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D74E text7 CODE >22:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D750 text7 CODE >23:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D756 text7 CODE >24:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D758 text7 CODE >22:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D758 text7 CODE >25:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D75C text7 CODE >27:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D768 text7 CODE >28:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D770 text7 CODE >29:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D776 text7 CODE >30:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D77A text7 CODE >32:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D780 text7 CODE >33:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D788 text7 CODE >34:/Applications/microchip/xc8/v1.45/sources/common/awmod.c
+D6B4 text6 CODE >147:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D6B6 text6 CODE >160:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D6DA text6 CODE >161:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D6FE text6 CODE >164:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D720 text6 CODE >165:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/GLCD_PIC_V1.1.c
+D8BE text5 CODE >61:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D8BE text5 CODE >62:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D8CE text5 CODE >63:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D8EA text5 CODE >64:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D964 text5 CODE >65:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D9E6 text5 CODE >67:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D9F0 text5 CODE >63:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D9FE text5 CODE >69:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D5F8 text4 CODE >12:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D5F8 text4 CODE >14:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D608 text4 CODE >15:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D618 text4 CODE >16:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E46E text3 CODE >19:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E470 text3 CODE >21:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E474 text3 CODE >22:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E4B0 text3 CODE >23:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E4EC text3 CODE >24:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E528 text3 CODE >25:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E564 text3 CODE >26:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E5A0 text3 CODE >27:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E5DC text3 CODE >28:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E618 text3 CODE >29:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E654 text3 CODE >30:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E690 text3 CODE >31:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E6CC text3 CODE >32:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E708 text3 CODE >33:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E744 text3 CODE >34:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E780 text3 CODE >35:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E7BC text3 CODE >36:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E7F8 text3 CODE >37:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E834 text3 CODE >38:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E870 text3 CODE >39:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E8AC text3 CODE >40:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E8E8 text3 CODE >41:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E924 text3 CODE >42:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E960 text3 CODE >43:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E99C text3 CODE >44:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+E9D8 text3 CODE >45:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EA14 text3 CODE >46:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EA50 text3 CODE >47:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EA8C text3 CODE >48:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EAC8 text3 CODE >49:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EB04 text3 CODE >50:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EB40 text3 CODE >51:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EB7C text3 CODE >52:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EBB8 text3 CODE >53:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EBF4 text3 CODE >54:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EC30 text3 CODE >55:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EC6C text3 CODE >56:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+ECA8 text3 CODE >57:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+ECE4 text3 CODE >58:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+ED20 text3 CODE >59:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+ED5C text3 CODE >60:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+ED98 text3 CODE >61:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EDD4 text3 CODE >62:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EE10 text3 CODE >63:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EE4C text3 CODE >64:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EE88 text3 CODE >65:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EEC4 text3 CODE >66:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EF00 text3 CODE >67:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EF3C text3 CODE >68:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EF78 text3 CODE >69:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EFB4 text3 CODE >70:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+EFF0 text3 CODE >71:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F02C text3 CODE >72:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F068 text3 CODE >73:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F0A4 text3 CODE >74:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F0E0 text3 CODE >75:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F11C text3 CODE >76:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F158 text3 CODE >77:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F194 text3 CODE >78:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F1D0 text3 CODE >79:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F20C text3 CODE >80:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F248 text3 CODE >81:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F284 text3 CODE >82:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F2C0 text3 CODE >83:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F2FC text3 CODE >84:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F338 text3 CODE >85:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F374 text3 CODE >86:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F3B0 text3 CODE >87:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F3EC text3 CODE >88:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F428 text3 CODE >89:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F464 text3 CODE >90:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F4A0 text3 CODE >91:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F4DC text3 CODE >92:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F518 text3 CODE >93:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F554 text3 CODE >94:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F590 text3 CODE >95:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F5CC text3 CODE >96:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F608 text3 CODE >97:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F644 text3 CODE >98:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F680 text3 CODE >99:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F6BC text3 CODE >100:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F6F8 text3 CODE >101:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F734 text3 CODE >102:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F770 text3 CODE >103:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F7AC text3 CODE >104:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F7E8 text3 CODE >105:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F824 text3 CODE >106:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F860 text3 CODE >107:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F89C text3 CODE >108:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F8D8 text3 CODE >109:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F914 text3 CODE >110:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F950 text3 CODE >111:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F98C text3 CODE >112:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+F9C8 text3 CODE >113:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+FA04 text3 CODE >114:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+FA40 text3 CODE >115:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+FA7C text3 CODE >116:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+FAB8 text3 CODE >117:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+FAF2 text3 CODE >118:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+FAF4 text3 CODE >21:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D5C6 text2 CODE >122:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D5C6 text2 CODE >123:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D5F6 text2 CODE >124:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D816 text1 CODE >126:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D816 text1 CODE >127:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D81E text1 CODE >128:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D820 text1 CODE >129:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D884 text1 CODE >131:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D888 text1 CODE >128:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+D888 text1 CODE >132:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/px_ascii.c
+DE8C text0 CODE >95:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DE8C text0 CODE >96:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DE90 text0 CODE >99:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DECC text0 CODE >100:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DF08 text0 CODE >101:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DF44 text0 CODE >103:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DF4C text0 CODE >104:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DF54 text0 CODE >105:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DF5C text0 CODE >106:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DF7C text0 CODE >107:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DF9C text0 CODE >109:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+DFDA text0 CODE >111:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E018 text0 CODE >112:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E05A text0 CODE >113:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E0A0 text0 CODE >115:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E0E4 text0 CODE >116:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E12A text0 CODE >117:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E170 text0 CODE >119:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E1B4 text0 CODE >120:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E1FA text0 CODE >121:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E240 text0 CODE >123:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E258 text0 CODE >124:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E270 text0 CODE >125:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E312 text0 CODE >124:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E318 text0 CODE >123:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E326 text0 CODE >129:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E342 text0 CODE >131:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E354 text0 CODE >132:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E35C text0 CODE >134:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E35E text0 CODE >135:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E378 text0 CODE >136:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E3A6 text0 CODE >137:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E3DC text0 CODE >138:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E418 text0 CODE >139:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E434 text0 CODE >140:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E44A text0 CODE >134:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+E44A text0 CODE >141:/Users/morris/Documents/Github/ArrowTeam/Projects/ProjectApricot.X/main.c
+D568 cinit CODE >2135:/tmp/xcVPmTWp7
+D568 cinit CODE >2137:/tmp/xcVPmTWp7
+D568 cinit CODE >2140:/tmp/xcVPmTWp7
+D568 cinit CODE >2160:/tmp/xcVPmTWp7
+D56A cinit CODE >2161:/tmp/xcVPmTWp7
+D56C cinit CODE >2162:/tmp/xcVPmTWp7
+D56E cinit CODE >2163:/tmp/xcVPmTWp7
+D570 cinit CODE >2164:/tmp/xcVPmTWp7
+D572 cinit CODE >2165:/tmp/xcVPmTWp7
+D574 cinit CODE >2166:/tmp/xcVPmTWp7
+D578 cinit CODE >2167:/tmp/xcVPmTWp7
+D57C cinit CODE >2168:/tmp/xcVPmTWp7
+D57C cinit CODE >2169:/tmp/xcVPmTWp7
+D57E cinit CODE >2170:/tmp/xcVPmTWp7
+D582 cinit CODE >2171:/tmp/xcVPmTWp7
+D584 cinit CODE >2172:/tmp/xcVPmTWp7
+D586 cinit CODE >2173:/tmp/xcVPmTWp7
+D588 cinit CODE >2177:/tmp/xcVPmTWp7
+D58A cinit CODE >2183:/tmp/xcVPmTWp7
+D58A cinit CODE >2186:/tmp/xcVPmTWp7
+D58C cinit CODE >2187:/tmp/xcVPmTWp7
+D58E cinit CODE >2188:/tmp/xcVPmTWp7
+D590 cinit CODE >2189:/tmp/xcVPmTWp7
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___awdiv@counter B 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production/ProjectApricot.X.production.obj
+__Lmediumconst FDC2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Hspace_1 97 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Hspace_2 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+glcdSetCOLMOD@rawData 8 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_INDIGO FF84 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production/ProjectApricot.X.production.obj
+__size_of_initGLCD 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production/ProjectApricot.X.production.obj
+_new_px_char D5F8 0 CODE 0 text4 dist/default/production/ProjectApricot.X.production.obj
+__mediumconst FDC2 0 MEDIUMCONST 0 mediumconst /tmp/xcwnyz7gF.obj
+__end_ofGLCD_PIC@INST_NOP FFC4 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/ProjectApricot.X.production.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_qr FDC3 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+glcdDrawPixel@XS 20 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+glcdDrawPixel@YS 1A 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+glcdSetCOLMOD@numBitsPerPixel 7 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+main@i 6F 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+main@j 6D 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production/ProjectApricot.X.production.obj
+_BLUE FF84 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_GREY FF9C 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_LATA F89 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_LATB F8A 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_LATC F8B 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_LATD F8C 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_LATE F8D 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+___sp 0 0 STACK 2 stack /tmp/xcwnyz7gF.obj
+_init D594 0 CODE 0 text9 dist/default/production/ProjectApricot.X.production.obj
+_main DE8C 0 CODE 0 text0 dist/default/production/ProjectApricot.X.production.obj
+start 0 0 CODE 0 init /tmp/xcwnyz7gF.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@numLoops 12 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__size_of_init 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_ORANGE FF94 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_spiTransfer D51A 0 CODE 0 text16 dist/default/production/ProjectApricot.X.production.obj
+?___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production/ProjectApricot.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup dist/default/production/ProjectApricot.X.production.obj
+__end_of_GLCD_ADDRESSABLE_SIZE_HORZ FFE8 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_GLCD_ADDRESSABLE_SIZE_VERT FFE7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+___awmod@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_VIOLET FF80 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__accesstop 80 0 ABS 0 - /tmp/xcwnyz7gF.obj
+intlevel0 0 0 CODE 0 text /tmp/xcwnyz7gF.obj
+intlevel1 0 0 CODE 0 text /tmp/xcwnyz7gF.obj
+intlevel2 0 0 CODE 0 text /tmp/xcwnyz7gF.obj
+intlevel3 0 0 CODE 0 text /tmp/xcwnyz7gF.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/ProjectApricot.X.production.obj
+_initGLCD DB80 0 CODE 0 text10 dist/default/production/ProjectApricot.X.production.obj
+print_px_char@c 3B 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+print_px_char@x 37 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+print_px_char@y 39 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/ProjectApricot.X.production.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__size_of_print_px_string 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_YELLOW FF90 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/production/ProjectApricot.X.production.obj
+___awdiv@sign C 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production/ProjectApricot.X.production.obj
+__end_of_initGLCD DE8C 0 CODE 0 text10 dist/default/production/ProjectApricot.X.production.obj
+glcdDrawPixel@color 1B 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+_ADCON0 FC2 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_ADCON1 FC1 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_glcdDrawPixel D6B4 0 CODE 0 text6 dist/default/production/ProjectApricot.X.production.obj
+___awdiv@dividend 7 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+___inthi_sp 0 0 STACK 2 stack /tmp/xcwnyz7gF.obj
+___intlo_sp 0 0 STACK 2 stack /tmp/xcwnyz7gF.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production/ProjectApricot.X.production.obj
+__end_of___wmul D540 0 CODE 0 text17 dist/default/production/ProjectApricot.X.production.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/ProjectApricot.X.production.obj
+_print_px_string$1156 44 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+main@eta 4A 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+main@sec 6B 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__size_of_spiInit 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__size_of_spiSend 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+glcdTransfer@cmd 4 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hmediumconst 10000 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+?_px_map 11 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production/ProjectApricot.X.production.obj
+___awdiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+_print_px_char D5C6 0 CODE 0 text2 dist/default/production/ProjectApricot.X.production.obj
+spiInit@divider 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of___awdiv D816 0 CODE 0 text8 dist/default/production/ProjectApricot.X.production.obj
+__end_of___awmod D792 0 CODE 0 text7 dist/default/production/ProjectApricot.X.production.obj
+print_px_string@s 40 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+print_px_string@x 3C 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+print_px_string@y 3E 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+_glcdSetCOLMOD D664 0 CODE 0 text12 dist/default/production/ProjectApricot.X.production.obj
+_INDIGO FF80 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_COLMOD FFAF 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_DISPON FFB9 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production/ProjectApricot.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+main@blocksize 75 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+start_initialization D568 0 CODE 0 cinit dist/default/production/ProjectApricot.X.production.obj
+__CFG_PBADEN$ON 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_ORANGE FF90 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_GAMSET FFBB 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_TRISCbits F94 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_TRISDbits F95 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@XE 7 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@XS 19 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@YE 9 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@YS 8 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+___rparam_used 1 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_qr FF7C 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_IDMOFF FFB1 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__size_of_spiTransfer 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_WDTPS$32768 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_SWRESET FFC3 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_INVCTR FFAB 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_INVOFF FFBD 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_SSPBUF FC9 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+spiSend@val 3 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_px_map FDC2 0 CODE 0 text3 dist/default/production/ProjectApricot.X.production.obj
+_VIOLET FF7C 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_MADCTL FFB2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__size_of_glcdDrawPixel 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_FRMCTR1 FFAF 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_FRMCTR2 FFAE 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_FRMCTR3 FFAD 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_VMOFCTR2 FFA5 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/production/ProjectApricot.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/production/ProjectApricot.X.production.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/production/ProjectApricot.X.production.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/production/ProjectApricot.X.production.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/production/ProjectApricot.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/production/ProjectApricot.X.production.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/production/ProjectApricot.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/production/ProjectApricot.X.production.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/production/ProjectApricot.X.production.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/production/ProjectApricot.X.production.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/production/ProjectApricot.X.production.obj
+__Hconst 0 0 CONST 0 const dist/default/production/ProjectApricot.X.production.obj
+__Hidata 0 0 CODE 0 idata dist/default/production/ProjectApricot.X.production.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/production/ProjectApricot.X.production.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production/ProjectApricot.X.production.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/production/ProjectApricot.X.production.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production/ProjectApricot.X.production.obj
+_YELLOW FF8C 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Hstack 0 0 STACK 2 stack dist/default/production/ProjectApricot.X.production.obj
+__Htext0 0 0 ABS 0 text0 dist/default/production/ProjectApricot.X.production.obj
+__Htext1 0 0 ABS 0 text1 dist/default/production/ProjectApricot.X.production.obj
+__Htext2 0 0 ABS 0 text2 dist/default/production/ProjectApricot.X.production.obj
+__Htext3 0 0 ABS 0 text3 dist/default/production/ProjectApricot.X.production.obj
+__Htext4 0 0 ABS 0 text4 dist/default/production/ProjectApricot.X.production.obj
+__Htext5 0 0 ABS 0 text5 dist/default/production/ProjectApricot.X.production.obj
+__Htext6 0 0 ABS 0 text6 dist/default/production/ProjectApricot.X.production.obj
+__Htext7 0 0 ABS 0 text7 dist/default/production/ProjectApricot.X.production.obj
+__Htext8 0 0 ABS 0 text8 dist/default/production/ProjectApricot.X.production.obj
+__Htext9 0 0 ABS 0 text9 dist/default/production/ProjectApricot.X.production.obj
+_main$1155 65 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/production/ProjectApricot.X.production.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/production/ProjectApricot.X.production.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/production/ProjectApricot.X.production.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/production/ProjectApricot.X.production.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/production/ProjectApricot.X.production.obj
+__Hbank15 0 0 ABS 0 bank15 dist/default/production/ProjectApricot.X.production.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production/ProjectApricot.X.production.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_PWCTR1 FFAA 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_PWCTR2 FFA9 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_PWCTR3 FFA8 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_PWCTR4 FFA7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_PWCTR5 FFA6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__smallconst 0 0 SMALLCONST 0 smallconst /tmp/xcwnyz7gF.obj
+__end_of_spiInit D664 0 CODE 0 text11 dist/default/production/ProjectApricot.X.production.obj
+__end_of_spiSend D4DE 0 CODE 0 text15 dist/default/production/ProjectApricot.X.production.obj
+__end_of_new_px_char D62C 0 CODE 0 text4 dist/default/production/ProjectApricot.X.production.obj
+__Hcomram 0 0 ABS 0 comram dist/default/production/ProjectApricot.X.production.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/production/ProjectApricot.X.production.obj
+__CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/production/ProjectApricot.X.production.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/production/ProjectApricot.X.production.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/production/ProjectApricot.X.production.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/production/ProjectApricot.X.production.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/production/ProjectApricot.X.production.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/production/ProjectApricot.X.production.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/production/ProjectApricot.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/production/ProjectApricot.X.production.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/production/ProjectApricot.X.production.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/production/ProjectApricot.X.production.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/production/ProjectApricot.X.production.obj
+__Lconst 0 0 CONST 0 const dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_SLPOUT FFC0 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lidata 0 0 CODE 0 idata dist/default/production/ProjectApricot.X.production.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/production/ProjectApricot.X.production.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production/ProjectApricot.X.production.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/production/ProjectApricot.X.production.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production/ProjectApricot.X.production.obj
+__Lstack 0 0 STACK 2 stack dist/default/production/ProjectApricot.X.production.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/production/ProjectApricot.X.production.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/production/ProjectApricot.X.production.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/production/ProjectApricot.X.production.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/production/ProjectApricot.X.production.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/production/ProjectApricot.X.production.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/production/ProjectApricot.X.production.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/production/ProjectApricot.X.production.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/production/ProjectApricot.X.production.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/production/ProjectApricot.X.production.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/production/ProjectApricot.X.production.obj
+__size_of_print_px_char 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production/ProjectApricot.X.production.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production/ProjectApricot.X.production.obj
+__size_of_glcdSetCOLMOD 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/production/ProjectApricot.X.production.obj
+__Hdata 0 0 ABS 0 data dist/default/production/ProjectApricot.X.production.obj
+__Hinit 4 0 CODE 0 init dist/default/production/ProjectApricot.X.production.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production/ProjectApricot.X.production.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production/ProjectApricot.X.production.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/production/ProjectApricot.X.production.obj
+__Htext 0 0 ABS 0 text dist/default/production/ProjectApricot.X.production.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/production/ProjectApricot.X.production.obj
+__Ldata 0 0 ABS 0 data dist/default/production/ProjectApricot.X.production.obj
+__Linit 0 0 CODE 0 init dist/default/production/ProjectApricot.X.production.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production/ProjectApricot.X.production.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production/ProjectApricot.X.production.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/production/ProjectApricot.X.production.obj
+__Ltext 0 0 ABS 0 text dist/default/production/ProjectApricot.X.production.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_VMCTR1 FFA5 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+___wmul D51A 0 CODE 0 text17 dist/default/production/ProjectApricot.X.production.obj
+__end_of_glcdDrawPixel D722 0 CODE 0 text6 dist/default/production/ProjectApricot.X.production.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hintret 0 0 ABS 0 intret dist/default/production/ProjectApricot.X.production.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/production/ProjectApricot.X.production.obj
+_RED FF94 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__S0 30000E 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__S1 97 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__S2 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_GLCD_ADDRESSABLE_SIZE_HORZ FFE7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_GLCD_ADDRESSABLE_SIZE_VERT FFE6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_COLMOD FFB0 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__size_of_glcdDrawRectangle 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_DISPON FFBA 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_print_px_char D5F8 0 CODE 0 text2 dist/default/production/ProjectApricot.X.production.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_GAMSET FFBC 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production/ProjectApricot.X.production.obj
+_draw_px_char D8BE 0 CODE 0 text5 dist/default/production/ProjectApricot.X.production.obj
+new_px_char@a 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+new_px_char@b 5 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+new_px_char@p 9 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_glcdSetCOLMOD D6B4 0 CODE 0 text12 dist/default/production/ProjectApricot.X.production.obj
+__end_of_RED FF98 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__CFG_CCP2MX$PORTC 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_IDMOFF FFB2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_INVCTR FFAC 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_INVOFF FFBE 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@i 14 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hramtop 1000 0 RAM 0 ramtop dist/default/production/ProjectApricot.X.production.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production/ProjectApricot.X.production.obj
+__pdataBANK0 80 0 BANK0 1 dataBANK0 dist/default/production/ProjectApricot.X.production.obj
+__activetblptr 2 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/production/ProjectApricot.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Htext10 0 0 ABS 0 text10 dist/default/production/ProjectApricot.X.production.obj
+__Htext11 0 0 ABS 0 text11 dist/default/production/ProjectApricot.X.production.obj
+__Htext12 0 0 ABS 0 text12 dist/default/production/ProjectApricot.X.production.obj
+__Htext13 0 0 ABS 0 text13 dist/default/production/ProjectApricot.X.production.obj
+__Htext14 0 0 ABS 0 text14 dist/default/production/ProjectApricot.X.production.obj
+__Htext15 0 0 ABS 0 text15 dist/default/production/ProjectApricot.X.production.obj
+__Htext16 0 0 ABS 0 text16 dist/default/production/ProjectApricot.X.production.obj
+__Htext17 0 0 ABS 0 text17 dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_MADCTL FFB3 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+___awmod@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_TEON FFD4 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__ptext10 DB80 0 CODE 0 text10 dist/default/production/ProjectApricot.X.production.obj
+__ptext11 D62C 0 CODE 0 text11 dist/default/production/ProjectApricot.X.production.obj
+__ptext12 D664 0 CODE 0 text12 dist/default/production/ProjectApricot.X.production.obj
+__ptext13 DA00 0 CODE 0 text13 dist/default/production/ProjectApricot.X.production.obj
+__ptext14 D540 0 CODE 0 text14 dist/default/production/ProjectApricot.X.production.obj
+__ptext15 D4D4 0 CODE 0 text15 dist/default/production/ProjectApricot.X.production.obj
+__ptext16 D4F6 0 CODE 0 text16 dist/default/production/ProjectApricot.X.production.obj
+__ptext17 D51A 0 CODE 0 text17 dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_SWRESET FFE3 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+___awdiv D792 0 CODE 0 text8 dist/default/production/ProjectApricot.X.production.obj
+___awmod D722 0 CODE 0 text7 dist/default/production/ProjectApricot.X.production.obj
+_glcdTransfer D540 0 CODE 0 text14 dist/default/production/ProjectApricot.X.production.obj
+print_px_string@idx 46 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_PWCTR1 FFAB 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_PWCTR2 FFAA 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_PWCTR3 FFA9 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_PWCTR4 FFA8 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_PWCTR5 FFA7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/production/ProjectApricot.X.production.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/production/ProjectApricot.X.production.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/production/ProjectApricot.X.production.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/production/ProjectApricot.X.production.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/production/ProjectApricot.X.production.obj
+__Lbank15 0 0 ABS 0 bank15 dist/default/production/ProjectApricot.X.production.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production/ProjectApricot.X.production.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/production/ProjectApricot.X.production.obj
+__CFG_BORV$3 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Lcomram 0 0 ABS 0 comram dist/default/production/ProjectApricot.X.production.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/production/ProjectApricot.X.production.obj
+__CFG_CPD$ON 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_px_map E46E 0 CODE 0 text3 dist/default/production/ProjectApricot.X.production.obj
+__size_of_draw_px_char 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+?_new_px_char 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+_LATDbits F8C 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_SLPOUT FFC1 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+main@F3036 80 0 BANK0 1 dataBANK0 dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_FRMCTR1 FFCF 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_FRMCTR2 FFCE 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_FRMCTR3 FFCD 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+main@endx 61 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+main@endy 63 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_COLMOD FFD0 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_DISPON FFDA 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_VMCTR1 FFA6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+stackhi F7F 0 ABS 0 - /tmp/xcwnyz7gF.obj
+stacklo 97 0 ABS 0 - /tmp/xcwnyz7gF.obj
+_spiTransfer D4F6 0 CODE 0 text16 dist/default/production/ProjectApricot.X.production.obj
+__Lintcode 0 0 CODE 0 intcode dist/default/production/ProjectApricot.X.production.obj
+__Lintret 0 0 ABS 0 intret dist/default/production/ProjectApricot.X.production.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_GAMSET FFDC 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__size_of_new_px_char 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_draw_px_char DA00 0 CODE 0 text5 dist/default/production/ProjectApricot.X.production.obj
+__Lspace_0 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Lspace_1 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Lspace_2 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__pbssCOMRAM 77 0 COMRAM 1 bssCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_IDMOFF FFD2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_INVCTR FFCC 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_INVOFF FFDE 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__size_of_glcdTransfer 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_DISPOFF FFBB 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_glcdDrawRectangle DB80 0 CODE 0 text13 dist/default/production/ProjectApricot.X.production.obj
+end_of_initialization D58A 0 CODE 0 cinit dist/default/production/ProjectApricot.X.production.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production/ProjectApricot.X.production.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/production/ProjectApricot.X.production.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__size_of_px_map 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+___awdiv@quotient D 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+?___awdiv 7 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+?___awmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_MADCTL FFD3 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@colorData 16 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production/ProjectApricot.X.production.obj
+___awmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Lramtop 1000 0 RAM 0 ramtop dist/default/production/ProjectApricot.X.production.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production/ProjectApricot.X.production.obj
+__pcinit D568 0 CODE 0 cinit dist/default/production/ProjectApricot.X.production.obj
+_SSPCON1bits FC6 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__ptext0 DE8C 0 CODE 0 text0 dist/default/production/ProjectApricot.X.production.obj
+__ptext1 D816 0 CODE 0 text1 dist/default/production/ProjectApricot.X.production.obj
+__ptext2 D5C6 0 CODE 0 text2 dist/default/production/ProjectApricot.X.production.obj
+__ptext3 E46E 0 CODE 0 text3 dist/default/production/ProjectApricot.X.production.obj
+__ptext4 D5F8 0 CODE 0 text4 dist/default/production/ProjectApricot.X.production.obj
+__ptext5 D8BE 0 CODE 0 text5 dist/default/production/ProjectApricot.X.production.obj
+__ptext6 D6B4 0 CODE 0 text6 dist/default/production/ProjectApricot.X.production.obj
+__ptext7 D722 0 CODE 0 text7 dist/default/production/ProjectApricot.X.production.obj
+__ptext8 D792 0 CODE 0 text8 dist/default/production/ProjectApricot.X.production.obj
+__ptext9 D594 0 CODE 0 text9 dist/default/production/ProjectApricot.X.production.obj
+_GLCD_SIZE_HORZ FFE5 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_GLCD_SIZE_VERT FFE4 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_glcdTransfer D568 0 CODE 0 text14 dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_PWCTR1 FFCB 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_PWCTR2 FFCA 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_PWCTR3 FFC9 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_PWCTR4 FFC8 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_PWCTR5 FFC7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_SWRESET FFC2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/production/ProjectApricot.X.production.obj
+draw_px_char@i 35 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+draw_px_char@m 31 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+draw_px_char@p 25 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+draw_px_char@x 21 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+draw_px_char@y 23 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/production/ProjectApricot.X.production.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/production/ProjectApricot.X.production.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/production/ProjectApricot.X.production.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/production/ProjectApricot.X.production.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/production/ProjectApricot.X.production.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/production/ProjectApricot.X.production.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/production/ProjectApricot.X.production.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/production/ProjectApricot.X.production.obj
+_spiInit D62C 0 CODE 0 text11 dist/default/production/ProjectApricot.X.production.obj
+_spiSend D4D4 0 CODE 0 text15 dist/default/production/ProjectApricot.X.production.obj
+__ramtop 1000 0 RAM 0 ramtop /tmp/xcwnyz7gF.obj
+__Lpowerup 0 0 CODE 0 powerup dist/default/production/ProjectApricot.X.production.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_CASET FFB9 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_SLPOUT FFE1 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_IDMON FFB1 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_INVON FFBD 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_NORON FFBF 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_NOP FFE4 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_PTLAR FFB6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_PTLON FFC0 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_RAMWR FFB7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_RASET FFB8 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_SLPIN FFC2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_TEOFF FFB5 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_FRMCTR1 FFAE 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_FRMCTR2 FFAD 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_FRMCTR3 FFAC 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+px_map@c 1A 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_VMCTR1 FFC6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+___param_bank 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production/ProjectApricot.X.production.obj
+__end_of__initialization D58A 0 CODE 0 cinit dist/default/production/ProjectApricot.X.production.obj
+___awmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_WRT2$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_WRT3$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production/ProjectApricot.X.production.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_print_px_string D8BE 0 CODE 0 text1 dist/default/production/ProjectApricot.X.production.obj
+main@startx 71 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+main@starty 73 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__pidataBANK0 D4DF 0 CODE 0 idataBANK0 dist/default/production/ProjectApricot.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production/ProjectApricot.X.production.obj
+__CFG_OSC$HSPLL 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+glcdDrawRectangle@color A 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__CFG_PWRT$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+spiTransfer@byteToTransfer 2 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_CASET FFB8 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_NORON FFBE 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__pmediumconst FDC2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_MADCTLbits 77 0 COMRAM 1 bssCOMRAM dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_RAMWR FFB6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+GLCD_PIC@INST_RASET FFB7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_SSPCON1 FC6 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_SSPSTAT FC7 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_GLCD_SIZE_HORZ FFE6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_GLCD_SIZE_VERT FFE5 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_BLUE FF88 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_GREY FFA0 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_init D5C6 0 CODE 0 text9 dist/default/production/ProjectApricot.X.production.obj
+__end_of_main E46E 0 CODE 0 text0 dist/default/production/ProjectApricot.X.production.obj
+__end_of_BLACK FFA4 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_GREEN FF8C 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_glcdDrawRectangle DA00 0 CODE 0 text13 dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_VMOFCTR2 FFC5 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_WHITE FF9C 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_BLACK FFA0 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_GREEN FF88 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_SSPIF 7CF3 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_TRISA F92 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_TRISB F93 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_TRISC F94 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_TRISD F95 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_TRISE F96 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+_WHITE FF98 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_main$137 67 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__HRAM 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Hbss 0 0 RAM 1 bss dist/default/production/ProjectApricot.X.production.obj
+__Hram 0 0 ABS 0 ram dist/default/production/ProjectApricot.X.production.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/production/ProjectApricot.X.production.obj
+__LRAM 1 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__Lbss 0 0 RAM 1 bss dist/default/production/ProjectApricot.X.production.obj
+__Lram 0 0 ABS 0 ram dist/default/production/ProjectApricot.X.production.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/production/ProjectApricot.X.production.obj
+__CFG_CP2$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_CP3$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_CASET FFD9 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_IDMON FFD1 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_INVON FFDD 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_NORON FFDF 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_PTLAR FFD6 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_PTLON FFE0 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_RAMWR FFD7 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_RASET FFD8 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_SLPIN FFE2 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_TEOFF FFD5 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+_SSPSTATbits FC7 0 ABS 0 - dist/default/production/ProjectApricot.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production/ProjectApricot.X.production.obj
+__initialization D568 0 CODE 0 cinit dist/default/production/ProjectApricot.X.production.obj
+_print_px_string D816 0 CODE 0 text1 dist/default/production/ProjectApricot.X.production.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production/ProjectApricot.X.production.obj
+___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production/ProjectApricot.X.production.obj
+__end_of_INST_DISPOFF FFDB 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/production/ProjectApricot.X.production.obj
+glcdTransfer@byte 6 0 COMRAM 1 cstackCOMRAM dist/default/production/ProjectApricot.X.production.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/ProjectApricot.X.production.obj
+__Hintcode 0 0 CODE 0 intcode dist/default/production/ProjectApricot.X.production.obj
+__end_ofGLCD_PIC@INST_TEON FFB4 0 MEDIUMCONST 0 mediumconst dist/default/production/ProjectApricot.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 D568 D568 2C 1
+idloc 0 200000 200000 8 1
+text0 0 DE8C DE8C 5E2 1
+text1 0 D816 D816 A8 1
+text2 0 D5C6 D5C6 32 1
+text3 0 E46E E46E 1954 1
+text4 0 D5F8 D5F8 34 1
+text5 0 D8BE D8BE 142 1
+text6 0 D6B4 D6B4 6E 1
+text7 0 D722 D722 70 1
+text8 0 D792 D792 84 1
+text9 0 D594 D594 32 1
+text10 0 DB80 DB80 30C 1
+text11 0 D62C D62C 38 1
+text12 0 D664 D664 50 1
+text13 0 DA00 DA00 180 1
+text14 0 D540 D540 28 1
+text15 0 D4D4 D4D4 A 1
+text16 0 D4F6 D4F6 24 1
+text17 0 D51A D51A 26 1
+cstackCOMRAM 1 1 1 77 1
+reset_vec 0 0 0 4 1
+idataBANK0 0 D4DF D4DF 17 1
+dataBANK0 1 80 80 17 1
+mediumconst 0 FDC2 FDC2 23E 1
+config 0 300000 300000 E 1
