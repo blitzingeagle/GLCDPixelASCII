@@ -1,3 +1,3 @@
 # GLCDPixelASCII
 
-Demonstration of using bitmasks to create an ASCII  typeset for GLCD.
+Demonstration of using bitmasks to create an ASCII typeset for GLCD on PIC18.
