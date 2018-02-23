@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC18 LITE Macro Assembler V1.45 build -152302408 
-                                                                                               Fri Feb 23 17:22:20 2018
+                                                                                               Fri Feb 23 17:27:07 2018
 
 Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160504
      1                           	processor	18F4620
@@ -3284,7 +3284,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3250  00239C  06E8               	decf	wreg,f,c
   3251  00239E  E2FC               	bc	u2381
   3252  0023A0  0012               	return	
-  3253  0023A2  0E84               	movlw	132
+  3253  0023A2  0E8C               	movlw	140
   3254  0023A4  6E01               	movwf	new_px_char@a,c
   3255  0023A6  0E2F               	movlw	47
   3256  0023A8  6E02               	movwf	new_px_char@a+1,c
@@ -3298,7 +3298,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3264  0023B8  6E06               	movwf	new_px_char@b+1,c
   3265  0023BA  0EF0               	movlw	240
   3266  0023BC  6E07               	movwf	new_px_char@b+2,c
-  3267  0023BE  0E20               	movlw	32
+  3267  0023BE  0E62               	movlw	98
   3268  0023C0  6E08               	movwf	new_px_char@b+3,c
   3269  0023C2  EC99  F019         	call	_new_px_char	;wreg free
   3270  0023C6  CFE9 FFD9          	movff	fsr0l,fsr2l
@@ -6645,7 +6645,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V1.45 build -152302408 
-Symbol Table                                                                                   Fri Feb 23 17:22:20 2018
+Symbol Table                                                                                   Fri Feb 23 17:27:07 2018
 
               _print_px_string$1144 0044                      ?_print_px_char 0037  
                        _SSPSTATbits 000FC7                      ??_glcdTransfer 0005  

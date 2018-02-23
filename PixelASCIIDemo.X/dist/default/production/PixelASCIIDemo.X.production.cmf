@@ -34,7 +34,7 @@ text17 CODE 0 33F2 33F2 26 1
 cstackCOMRAM COMRAM 1 1 1 47 1
 smallconst SMALLCONST 0 1000 1000 DC 1
 bssCOMRAM COMRAM 1 48 48 1 1
-$/tmp/xccj2OKqz.obj
+$/tmp/xc7013KiE.obj
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 0 300000 300000 E 1
@@ -445,15 +445,15 @@ $dist/default/production/PixelASCIIDemo.X.production.obj
 3092 text0 CODE >79:/Users/morris/Documents/Github/GLCDPixelAscii/PixelASCIIDemo.X/main.c
 30AE text0 CODE >80:/Users/morris/Documents/Github/GLCDPixelAscii/PixelASCIIDemo.X/main.c
 30CA text0 CODE >82:/Users/morris/Documents/Github/GLCDPixelAscii/PixelASCIIDemo.X/main.c
-343C cinit CODE >1746:/tmp/xcJr2pMrN
-343C cinit CODE >1748:/tmp/xcJr2pMrN
-343C cinit CODE >1751:/tmp/xcJr2pMrN
-343C cinit CODE >1763:/tmp/xcJr2pMrN
-343E cinit CODE >1769:/tmp/xcJr2pMrN
-343E cinit CODE >1772:/tmp/xcJr2pMrN
-3440 cinit CODE >1773:/tmp/xcJr2pMrN
-3442 cinit CODE >1774:/tmp/xcJr2pMrN
-3444 cinit CODE >1775:/tmp/xcJr2pMrN
+343C cinit CODE >1746:/tmp/xcxqktL4R
+343C cinit CODE >1748:/tmp/xcxqktL4R
+343C cinit CODE >1751:/tmp/xcxqktL4R
+343C cinit CODE >1763:/tmp/xcxqktL4R
+343E cinit CODE >1769:/tmp/xcxqktL4R
+343E cinit CODE >1772:/tmp/xcxqktL4R
+3440 cinit CODE >1773:/tmp/xcxqktL4R
+3442 cinit CODE >1774:/tmp/xcxqktL4R
+3444 cinit CODE >1775:/tmp/xcxqktL4R
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -477,7 +477,7 @@ __end_of_INDIGO 1009 0 SMALLCONST 0 smallconst dist/default/production/PixelASCI
 __size_of_initGLCD 0 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production/PixelASCIIDemo.X.production.obj
 _new_px_char 3332 0 CODE 0 text4 dist/default/production/PixelASCIIDemo.X.production.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xccj2OKqz.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xc7013KiE.obj
 __end_ofGLCD_PIC@INST_NOP 1049 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/PixelASCIIDemo.X.production.obj
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
@@ -492,10 +492,10 @@ _LATB F8A 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 _LATC F8B 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 _LATD F8C 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 _LATE F8D 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
-___sp 0 0 STACK 2 stack /tmp/xccj2OKqz.obj
+___sp 0 0 STACK 2 stack /tmp/xc7013KiE.obj
 _init 3398 0 CODE 0 text9 dist/default/production/PixelASCIIDemo.X.production.obj
 _main 2FFE 0 CODE 0 text0 dist/default/production/PixelASCIIDemo.X.production.obj
-start 0 0 CODE 0 init /tmp/xccj2OKqz.obj
+start 0 0 CODE 0 init /tmp/xc7013KiE.obj
 __size_of___awdiv 0 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 __size_of___awmod 0 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 glcdDrawRectangle@numLoops 12 0 COMRAM 1 cstackCOMRAM dist/default/production/PixelASCIIDemo.X.production.obj
@@ -510,11 +510,11 @@ __end_of_GLCD_ADDRESSABLE_SIZE_HORZ 106D 0 SMALLCONST 0 smallconst dist/default/
 __end_of_GLCD_ADDRESSABLE_SIZE_VERT 106C 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
 ___awmod@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/production/PixelASCIIDemo.X.production.obj
 __end_of_VIOLET 1005 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
-__accesstop 80 0 ABS 0 - /tmp/xccj2OKqz.obj
-intlevel0 0 0 CODE 0 text /tmp/xccj2OKqz.obj
-intlevel1 0 0 CODE 0 text /tmp/xccj2OKqz.obj
-intlevel2 0 0 CODE 0 text /tmp/xccj2OKqz.obj
-intlevel3 0 0 CODE 0 text /tmp/xccj2OKqz.obj
+__accesstop 80 0 ABS 0 - /tmp/xc7013KiE.obj
+intlevel0 0 0 CODE 0 text /tmp/xc7013KiE.obj
+intlevel1 0 0 CODE 0 text /tmp/xc7013KiE.obj
+intlevel2 0 0 CODE 0 text /tmp/xc7013KiE.obj
+intlevel3 0 0 CODE 0 text /tmp/xc7013KiE.obj
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/PixelASCIIDemo.X.production.obj
 _initGLCD 2A30 0 CODE 0 text10 dist/default/production/PixelASCIIDemo.X.production.obj
 print_px_char@c 3B 0 COMRAM 1 cstackCOMRAM dist/default/production/PixelASCIIDemo.X.production.obj
@@ -538,8 +538,8 @@ _ADCON0 FC2 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 _ADCON1 FC1 0 ABS 0 - dist/default/production/PixelASCIIDemo.X.production.obj
 _glcdDrawPixel 323C 0 CODE 0 text6 dist/default/production/PixelASCIIDemo.X.production.obj
 ___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PixelASCIIDemo.X.production.obj
-___inthi_sp 0 0 STACK 2 stack /tmp/xccj2OKqz.obj
-___intlo_sp 0 0 STACK 2 stack /tmp/xccj2OKqz.obj
+___inthi_sp 0 0 STACK 2 stack /tmp/xc7013KiE.obj
+___intlo_sp 0 0 STACK 2 stack /tmp/xc7013KiE.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production/PixelASCIIDemo.X.production.obj
 __end_of___wmul 3418 0 CODE 0 text17 dist/default/production/PixelASCIIDemo.X.production.obj
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/PixelASCIIDemo.X.production.obj
@@ -634,7 +634,7 @@ GLCD_PIC@INST_PWCTR2 102E 0 SMALLCONST 0 smallconst dist/default/production/Pixe
 GLCD_PIC@INST_PWCTR3 102D 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
 GLCD_PIC@INST_PWCTR4 102C 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
 GLCD_PIC@INST_PWCTR5 102B 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
-__smallconst 1000 0 SMALLCONST 0 smallconst /tmp/xccj2OKqz.obj
+__smallconst 1000 0 SMALLCONST 0 smallconst /tmp/xc7013KiE.obj
 __end_of_spiInit 3332 0 CODE 0 text11 dist/default/production/PixelASCIIDemo.X.production.obj
 __end_of_spiSend 3452 0 CODE 0 text15 dist/default/production/PixelASCIIDemo.X.production.obj
 __end_of_new_px_char 3366 0 CODE 0 text4 dist/default/production/PixelASCIIDemo.X.production.obj
@@ -780,8 +780,8 @@ __end_of_INST_COLMOD 1055 0 SMALLCONST 0 smallconst dist/default/production/Pixe
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production/PixelASCIIDemo.X.production.obj
 __end_of_INST_DISPON 105F 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
 __end_ofGLCD_PIC@INST_VMCTR1 102B 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
-stackhi F7F 0 ABS 0 - /tmp/xccj2OKqz.obj
-stacklo 80 0 ABS 0 - /tmp/xccj2OKqz.obj
+stackhi F7F 0 ABS 0 - /tmp/xc7013KiE.obj
+stacklo 80 0 ABS 0 - /tmp/xc7013KiE.obj
 _spiTransfer 3418 0 CODE 0 text16 dist/default/production/PixelASCIIDemo.X.production.obj
 __Lintcode 0 0 CODE 0 intcode dist/default/production/PixelASCIIDemo.X.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production/PixelASCIIDemo.X.production.obj
@@ -852,7 +852,7 @@ __Ltext16 0 0 ABS 0 text16 dist/default/production/PixelASCIIDemo.X.production.o
 __Ltext17 0 0 ABS 0 text17 dist/default/production/PixelASCIIDemo.X.production.obj
 _spiInit 32FA 0 CODE 0 text11 dist/default/production/PixelASCIIDemo.X.production.obj
 _spiSend 3448 0 CODE 0 text15 dist/default/production/PixelASCIIDemo.X.production.obj
-__ramtop 1000 0 RAM 0 ramtop /tmp/xccj2OKqz.obj
+__ramtop 1000 0 RAM 0 ramtop /tmp/xc7013KiE.obj
 __Lpowerup 0 0 CODE 0 powerup dist/default/production/PixelASCIIDemo.X.production.obj
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/PixelASCIIDemo.X.production.obj
 __end_ofGLCD_PIC@INST_CASET 103E 0 SMALLCONST 0 smallconst dist/default/production/PixelASCIIDemo.X.production.obj
