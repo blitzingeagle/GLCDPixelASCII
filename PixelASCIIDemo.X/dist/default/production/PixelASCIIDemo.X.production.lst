@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC18 LITE Macro Assembler V1.45 build -152302408 
-                                                                                               Wed Jan 31 18:54:15 2018
+                                                                                               Fri Feb 23 17:22:20 2018
 
 Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160504
      1                           	processor	18F4620
@@ -517,10 +517,10 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
    503  0010C9  20                 	db	32
    504  0010CA  20                 	db	32
    505  0010CB  54                 	db	84	;'T'
-   506  0010CC  52                 	db	82	;'R'
-   507  0010CD  55                 	db	85	;'U'
-   508  0010CE  4D                 	db	77	;'M'
-   509  0010CF  50                 	db	80	;'P'
+   506  0010CC  72                 	db	114	;'r'
+   507  0010CD  75                 	db	117	;'u'
+   508  0010CE  6D                 	db	109	;'m'
+   509  0010CF  70                 	db	112	;'p'
    510  0010D0  20                 	db	32
    511  0010D1  32                 	db	50	;'2'
    512  0010D2  30                 	db	48	;'0'
@@ -933,7 +933,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
    914  0030A8  6E41               	movwf	print_px_string@s+1,c
    915  0030AA  ECA8  F018         	call	_print_px_string	;wreg free
    916                           
-   917                           ;main.c: 80: print_px_string(0, 84, "      TRUMP 2020     ");
+   917                           ;main.c: 80: print_px_string(0, 84, "      Trump 2020     ");
    918  0030AE  0E00               	movlw	0
    919  0030B0  6E3D               	movwf	print_px_string@x+1,c
    920  0030B2  0E00               	movlw	0
@@ -6645,7 +6645,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V1.45 build -152302408 
-Symbol Table                                                                                   Wed Jan 31 18:54:15 2018
+Symbol Table                                                                                   Fri Feb 23 17:22:20 2018
 
               _print_px_string$1144 0044                      ?_print_px_char 0037  
                        _SSPSTATbits 000FC7                      ??_glcdTransfer 0005  

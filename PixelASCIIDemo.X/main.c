@@ -77,7 +77,7 @@ void main(void) {
     print_px_string(0, 28, "       AMERICA       ");
     print_px_string(0, 42, "        GREAT        ");
     print_px_string(0, 56, "        AGAIN        ");
-    print_px_string(0, 84, "      TRUMP 2020     ");
+    print_px_string(0, 84, "      Trump 2020     ");
     
     while(1) {
     }

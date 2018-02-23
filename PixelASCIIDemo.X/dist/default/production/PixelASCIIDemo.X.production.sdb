@@ -299,7 +299,7 @@
 "70 /Users/morris/Documents/Github/GLCDPixelAscii/PixelASCIIDemo.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"87
+"86
 } 0
 "128 /Users/morris/Documents/Github/GLCDPixelAscii/PixelASCIIDemo.X/px_ascii.c
 [v _print_px_string print_px_string `(v  1 e 1 0 ]
